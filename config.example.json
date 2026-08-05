@@ -1,0 +1,16 @@
+{
+  "base_url": "http://localhost:6875",
+  "owner_auth": {
+    "cookie": "bookstack_session=REPLACE_WITH_OWNER_SESSION_COOKIE"
+  },
+  "attacker_auth": {
+    "cookie": "bookstack_session=REPLACE_WITH_ATTACKER_SESSION_COOKIE"
+  },
+  "endpoints": [
+    {
+      "name": "Restricted page via /link/{id}",
+      "path": "/link/2",
+      "marker": "a distinctive phrase from the page's title or body"
+    }
+  ]
+}
